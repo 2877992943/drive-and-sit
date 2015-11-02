@@ -23,7 +23,9 @@
 <a id="drive-sit" class="anchor" href="#drive-sit" aria-hidden="true"><span class="octicon octicon-link"></span></a>drive |sit</h1>
 
 <h2>
-<a id="fea-6x4--mod_acc_magabsmin_acc_magabsmax_acc_mag-mean-std-min-max-for-50-window" class="anchor" href="#fea-6x4--mod_acc_magabsmin_acc_magabsmax_acc_mag-mean-std-min-max-for-50-window" aria-hidden="true"><span class="octicon octicon-link"></span></a>fea 6x4  mod_acc_mag,absMin_acc_mag,absMax_acc_mag (mean std min max for 50 window)</h2>
+<a id="fea-6x4" class="anchor" href="#fea-6x4" aria-hidden="true"><span class="octicon octicon-link"></span></a>fea 6x4</h2>
+
+<p>mod_acc_mag,absMin_acc_mag,absMax_acc_mag (mean std min max for 50 window)</p>
 
 <h3>
 <a id="not-ensembletry-10-times-not-overlap-trainset-test" class="anchor" href="#not-ensembletry-10-times-not-overlap-trainset-test" aria-hidden="true"><span class="octicon octicon-link"></span></a>not ensemble,try 10 times, not overlap trainset test</h3>
@@ -37,7 +39,9 @@
 </ul>
 
 <h2>
-<a id="fea-12-only-mag" class="anchor" href="#fea-12-only-mag" aria-hidden="true"><span class="octicon octicon-link"></span></a>　fea 12 only mag</h2>
+<a id="fea-12" class="anchor" href="#fea-12" aria-hidden="true"><span class="octicon octicon-link"></span></a>　fea 12</h2>
+
+<p>only mag,no acc</p>
 
 <ul>
 <li>nn average accuracy not ensemble 55.0</li>
@@ -46,6 +50,29 @@
 <li>svm 0.758333333333</li>
 <li>rf 0.944444444444</li>
 </ul>
+
+<h2>
+<a id="fea-6x4-acc-magsince-mag50300-acc030remove-noisenormalize-each-dim" class="anchor" href="#fea-6x4-acc-magsince-mag50300-acc030remove-noisenormalize-each-dim" aria-hidden="true"><span class="octicon octicon-link"></span></a>fea 6x4 acc mag,since mag[50,300] acc[0,30],remove noise,normalize each dim</h2>
+
+<ul>
+<li>maxDep 6 try10times average  not ensemble 0.904 max 0.98 min 0.8</li>
+<li>maxDep 8 try10times average  not ensemble 0.86 max 0.94 min 0.7</li>
+<li>maxDep 10 try10times average  not ensemble 0.912 max 0.94 min 0.84</li>
+<li>maxDep 12 try10times average  not ensemble 0.876 max 0.94 min 0.78</li>
+<li>maxDep 14 try10times average  not ensemble 0.89 max 0.92 min 0.84</li>
+<li>maxDep 16 try10times average  not ensemble 0.912 max 0.96 min 0.82</li>
+<li>maxDep 18 try10times average  not ensemble 0.878 max 0.94 min 0.74</li>
+<li>maxDep 20 try10times average  not ensemble 0.886 max 0.94 min 0.82</li>
+<li>maxDep 22 try10times average  not ensemble 0.894 max 0.96 min 0.84</li>
+<li>maxDep 24 try10times average  not ensemble 0.89 max 0.96 min 0.8</li>
+<li>maxDep 26 try10times average  not ensemble 0.92 max 0.98 min 0.86</li>
+<li>maxDep 28 try10times average  not ensemble 0.884 max 0.96 min 0.84</li>
+</ul>
+
+<h3>
+<a id="now-ensemble" class="anchor" href="#now-ensemble" aria-hidden="true"><span class="octicon octicon-link"></span></a>now ensemble</h3>
+
+<p>try 10 times ensemble-dt average 0.924 min max 0.84 1.0</p>
 
       <footer class="site-footer">
         <span class="site-footer-owner"><a href="https://github.com/2877992943/drive-and-sit">Drive-and-sit</a> is maintained by <a href="https://github.com/2877992943">2877992943</a>.</span>
